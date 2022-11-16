@@ -1,0 +1,48 @@
+.banner{
+    background-image: url('https://images.pexels.com/photos/5570222/pexels-photo-5570222.jpeg?cs=srgb&dl=pexels-jonathan-borba-5570222.jpg&fm=jpg&_gl=1*13xrdhu*_ga*NTU3MTE4Njg1LjE2NjM1MzcwNjQ.*_ga_8JE65Q40S6*MTY2ODQ3NTk2NC41LjEuMTY2ODQ3NzEzMC4wLjAuMA..');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+
+.banner__searchBtn{
+    background-color: white !important;
+    color: #FF5A5F !important;
+    font-weight: 900;
+    text-transform: inherit !important;
+    outline: none !important;
+}
+
+.banner__info{
+    background-color: black;
+    color: white;
+    padding-top: 20vh;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__info > h1 {
+    padding-top: -10px;
+}
+
+.banner__info > button {
+    background-color: #FF5A5F ;
+    color: white;
+    text-transform: inherit;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color:  white ;
+    color: #FF5A5F;
+    border: 1px solid white;
+}
