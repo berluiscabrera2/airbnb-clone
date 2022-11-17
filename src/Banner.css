@@ -17,6 +17,7 @@
     color: #FF5A5F !important;
     font-weight: 900;
     text-transform: inherit !important;
+    border: 1px solid lightgray !important;
     outline: none !important;
 }
 

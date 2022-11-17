@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import DatePicker from './DatePicker';
 import './Banner.css'
@@ -14,7 +14,7 @@ function Banner() {
         <Button 
           className='banner__searchBtn'
           variant='outlined'
-          onClick={() => setShowSearchBar(!showSearchBar)}>Search Dates</Button>
+          onClick={() => setShowSearchBar(!showSearchBar)}>{showSearchBar? 'Hide': 'Search Dates'}</Button>
       </div>
       <div className='banner__info'>
         <h1>Live, Love and Travel</h1>
