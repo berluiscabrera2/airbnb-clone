@@ -29,7 +29,7 @@
 .banner__info{
     background-color: black;
     color: white;
-    padding-top: 20vh;
+    padding-top: 15vh;
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 40px;
@@ -37,7 +37,12 @@
 }
 
 .banner__info > h1 {
-    padding-top: -10px;
+    padding-top: 10px;
+}
+
+.banner__info > h5 {
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .banner__info > button {

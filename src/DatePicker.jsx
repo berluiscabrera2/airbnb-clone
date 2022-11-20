@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { DateRangePicker } from 'react-date-range';
 import Button from '@mui/material/Button';
 import PeopleIcon from '@mui/icons-material/People';
+import { useNavigate } from 'react-router-dom';
 
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
@@ -9,6 +10,7 @@ import './DatePicker.css'
 
 function DatePicker() {
 
+    const navigate = useNavigate();
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
 
@@ -31,7 +33,7 @@ function DatePicker() {
             <PeopleIcon />
         </h2>
         <input type="number" min={1} max={16} defaultValue={2}/>
-        <Button>Search</Button>
+        <Button onClick={() => navigate('/search')}>Search</Button>
     </div>
   )
 }

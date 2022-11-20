@@ -29,19 +29,19 @@ function Home() {
               src='https://a0.muscache.com/im/pictures/8534b0f0-90ea-452e-a34f-2d261a8cff4b.jpg?im_w=1200'
               title='4 Bedroom Lake House'
               description='Rent this Vacation house in front of the Missisipi Lake.'
-              price='$353 per night'
+              price='US$ 353 / night'
            />
           <Card 
               src='https://a0.muscache.com/im/pictures/miso/Hosting-47448850/original/82d2e59c-b4c5-43ba-bead-94161da2d185.jpeg?im_w=1200'
               title='Amazing View at Villa Cristalina'
               description='Romantic villa to spend romantic nights with your partner.'
-              price='$250 per night'
+              price='US$ 250 / night'
           />
           <Card 
-              src='https://a0.muscache.com/im/pictures/miso/Hosting-749996089802009824/original/8fefceb0-da83-461c-9441-1dc5ce1c0174.jpeg?im_w=720'
+              src='https://a0.muscache.com/im/pictures/e92dac20-8a65-47a0-8a95-8049e2f8a748.jpg?im_w=1200'
               title='10-Acre Retreat'
               description='Inmerse yourself in the mountains of colorado in this beautiful house.'
-              price='$300 per night'
+              price='US$ 300 / night'
           />
         </div>
     </div>

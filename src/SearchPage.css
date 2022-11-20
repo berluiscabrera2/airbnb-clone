@@ -1,0 +1,27 @@
+.searchPage__info{
+    padding: 20px;
+}
+
+.searchPage__info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.searchPage__info >h1 {
+    margin-bottom: 30px;
+}
+
+.searchPage__infoBtns{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.searchPage__infoBtns > button{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    text-transform: inherit !important;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
